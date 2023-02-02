@@ -17,6 +17,7 @@ function App() {
   return <div className="app">
     <BrowserRouter>
       <ThemeProvider theme={theme}>
+        <CssBaseline />
         <Routes>
           <Route path="/" element={<LoginPage />} />
           <Route path="/home" element={<HomePage />} />
